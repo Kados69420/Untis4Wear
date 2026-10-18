@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Untis4Wear</string>
+
+    <string name="menu_next_lesson">Nächste Stunde</string>
+    <string name="menu_previous_lesson">Vorherige Stunde</string>
+    <string name="menu_next_day">Nächster Tag</string>
+    <string name="menu_previous_day">Vorheriger Tag</string>
+    <string name="menu_today">Heute</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_settings">Einstellungen</string>
+
+    <string name="status_loading">Lädt...</string>
+    <string name="status_error">Ladefehler</string>
+    <string name="status_no_lessons">Kein Unterricht</string>
+    <string name="status_no_more_lessons">Kein Unterricht mehr</string>
+    <string name="status_setup">Einrichtung nötig\nTippen für Menü</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="setting_username">Benutzername</string>
+    <string name="setting_password">Passwort</string>
+    <string name="setting_url">Untis-URL (z. B. mese.webuntis.com)</string>
+    <string name="setting_school">Schule</string>
+    <string name="setting_color_normal">Farbe: normale Stunde</string>
+    <string name="setting_color_cancelled">Farbe: Entfall</string>
+    <string name="setting_color_changed">Farbe: Änderung</string>
+    <string name="setting_color_none">Farbe: kein Unterricht</string>
+    <string name="setting_date_system">Datumsformat</string>
+    <string name="setting_date_delimiter">Datumstrennzeichen</string>
+    <string name="settings_save">Speichern</string>
+    <string name="settings_saved">Gespeichert</string>
+
+    <string-array name="color_names">
+        <item>Schwarz</item>
+        <item>Weiß</item>
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Gelb</item>
+        <item>Orange</item>
+        <item>Lila</item>
+        <item>Grau</item>
+    </string-array>
+
+    <string-array name="date_system_names">
+        <item>TTMMJJJJ</item>
+        <item>MMTTJJJJ</item>
+        <item>JJJJMMTT</item>
+    </string-array>
+</resources>

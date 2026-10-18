@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Untis4Wear</string>
+
+    <!-- Menu -->
+    <string name="menu_next_lesson">Next Lesson</string>
+    <string name="menu_previous_lesson">Previous Lesson</string>
+    <string name="menu_next_day">Next Day</string>
+    <string name="menu_previous_day">Previous Day</string>
+    <string name="menu_today">Today</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Timetable status texts -->
+    <string name="status_loading">Loading...</string>
+    <string name="status_error">Loading error</string>
+    <string name="status_no_lessons">No lessons</string>
+    <string name="status_no_more_lessons">No more lessons</string>
+    <string name="status_setup">Setup needed\nTap for menu</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_username">Username</string>
+    <string name="setting_password">Password</string>
+    <string name="setting_url">Untis URL (e.g. mese.webuntis.com)</string>
+    <string name="setting_school">School</string>
+    <string name="setting_color_normal">Normal Subject Color</string>
+    <string name="setting_color_cancelled">Cancelled Subject Color</string>
+    <string name="setting_color_changed">Changed Subject Color</string>
+    <string name="setting_color_none">No Subject Color</string>
+    <string name="setting_date_system">Date System</string>
+    <string name="setting_date_delimiter">Date Delimiter</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_saved">Saved</string>
+
+    <!-- Order must match the color indices in Palette.kt (0..8). -->
+    <string-array name="color_names">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Gray</item>
+    </string-array>
+
+    <!-- Order must match DateSystem indices (0 = DMY, 1 = MDY, 2 = YMD). -->
+    <string-array name="date_system_names">
+        <item>DDMMYYYY</item>
+        <item>MMDDYYYY</item>
+        <item>YYYYMMDD</item>
+    </string-array>
+</resources>
